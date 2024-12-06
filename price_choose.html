@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Price</title>
+	<script>
+		function myfun1(){
+			let dp,dis;
+			let price=parseInt(prompt("Enter Price: "))
+if (price<1500)
+		dp=12;
+else if(price<5000)
+	dp=10;
+else
+	dp=7
+dis=price*dp/100;
+
+document.write("<br>"+"Price="+price);
+document.write("<br>"+"Discount %="+dp);
+document.write("<br>"+"Discount ="+dis);
+document.write("<br>"+"Price after Discount="+(price-dis));
+
+			}
+
+
+	</script>
+</head>
+<body>
+<button type="button" onclick="myfun1()">Get Input</button>
+</body>
+</html>

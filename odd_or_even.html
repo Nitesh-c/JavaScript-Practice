@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Odd or Even Checker</title>
+	<script>
+		function chercker(){
+			let num=parseInt(prompt("Enter your Number!", "Type Here!"))
+if (num%2===0){
+	document.getElementById('ans').innerHTML=(num+"  is Even Number");
+}else{
+	document.getElementById('ans').innerHTML=(num+"  is Odd Number");
+}
+};
+	</script>
+	<style>
+		body{
+			color: white;
+			background: black;
+			margin: 3px;
+			padding: 3px;
+			text-align: center;
+		}
+button{
+	color:red;
+	font-size: 40px;
+	font-weight: 800;
+	font-family: "ThisTimeRoman";
+	background-color: greenyellow;
+	border: 5px,solid,white;
+	border-radius: 20px;
+}
+h3{
+	font-size: 60px;
+}
+
+h2{
+	color:pink;
+	font-size: 40px;
+
+}
+
+	</style>
+</head>
+<body>
+<button type="button" onclick="chercker()">Let's Check </button>
+<h3>🕺Here click and check Number is Odd or Even.🕺</h3>
+<h2 id="ans"></h2>
+</body>
+</html>

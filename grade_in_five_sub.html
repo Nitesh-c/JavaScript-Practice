@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students Position Checker</title>
+	<script>
+		let sub1,sub2,sub3,sub4,sub5,tot,avg;
+		sub1=parseInt(prompt("Enter Marks out of 100"));
+		sub2=parseInt(prompt("Enter Marks out of 100"));
+		sub3=parseInt(prompt("Enter Marks out of 100"));
+		sub4=parseInt(prompt("Enter Marks out of 100"));
+		sub5=parseInt(prompt("Enter Marks out of 100"));
+		tot=(sub1+sub2+sub3+sub4+sub5);
+		avg=tot/5;
+		document.write("<br>"+"Full Marks= 500");
+		document.write("<br>"+"Obtained Marks= "+tot);
+		document.write("<br>"+"Average Marks = "+avg+"<br>");
+		if(avg>=90){
+			document.write("Grade A")
+		}else if(avg>=75 && avg<90){
+			document.write("Grade B")
+		}else if(avg>=50 && avg<75){
+			document.write("Grade C")
+		}else if(avg<50){
+			document.write("Fail")
+		}else {
+			alert("Enter Valid Number")
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

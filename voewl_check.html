@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vowel Checker</title>
+	<script>
+		function cher(){
+			let alpha=prompt("Enter your Letters ")
+		if(alpha==="a"||alpha==="e"||alpha==="i"||alpha==="o"||alpha==="u"){
+			document.getElementById('ans').innerHTML=(alpha+" is Vowel")
+		}else{
+			document.getElementById('ans').innerHTML=(alpha+" is Consonant")
+
+		}
+
+		};
+
+
+	</script>
+</head>
+<body>
+<button type="button" onclick="cher()">Let's Click Here!</button>
+<h1 id="ans"></h1>
+</body>
+</html>

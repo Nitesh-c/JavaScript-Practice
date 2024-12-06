@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SET-1</title>
+	<script>
+		// Formula is dividend = (quotient*divisor)+remainder.
+		function solve(){
+			let quo, div, rem, ans;
+			quo=282;
+			div=65;
+			rem=32;
+			ans=(quo*div)+rem;
+			document.getElementById('ans').innerHTML=("The answer is : "+ans+" ")
+		}
+
+	</script>
+</head>
+<body>
+	<h1>The Question is :-</h1>
+	<p>
+		3. I a sum, the quotient= 282, the divisor= 65 and the remainder= 32. Find the dividend.
+	</p>
+	<button type="button" onclick="solve()"> Let's Solve !</button>
+	<h2 id="ans"></h2>
+
+</body>
+</html>

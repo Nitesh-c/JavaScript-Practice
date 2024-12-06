@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Check</title>
+    <script>        
+function isLeapYear(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    console.log(`${year} is a leap year.`);
+    alert(`${year} is a leap year.`);
+    } else {
+    console.log(`${year} is not a leap year.`);
+    alert(`${year} is not a leap year.`);
+    }
+}
+
+// Get user input
+const year = parseInt(prompt("Enter a year to check if it's a leap year:"));
+
+    </script>
+</head>
+<body>
+<button type="button" onclick="isLeapYear(year)">Clcik here!</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SET-1</title>
+	<script> 
+function find(){
+	let fourDigit, divBy, ans;
+	fourDigit=9999;
+	divBy=parseInt(prompt("Enter your number want to divisible by: ", "Type a number"));
+	ans=fourDigit-(fourDigit%divBy);
+	document.getElementById('res').innerHTML=ans;
+}
+
+	</script>
+</head>
+<body>
+	<h1>The Question is :-</h1>
+	<p>4. Find the greatest number of four digits divisible by 38.</p>
+	<button type="button" onclick="find()">Let's Solve !</button>
+	<h1 id="res"></h1>
+
+</body>
+</html>
